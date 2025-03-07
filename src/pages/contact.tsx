@@ -34,7 +34,7 @@ const contacts = [
   {
     Comp: YouTube,
     alt: 'youtube icon',
-    link: 'https://www.youtube.com/@seu-canal', // Replace with your YouTube channel URL
+    link: 'https://www.youtube.com/@douglaslopesdev', // Replace with your YouTube channel URL
   },
 ]
 
