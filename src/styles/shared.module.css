@@ -9,3 +9,16 @@
 .layout h2 {
   text-align: center;
 }
+
+.profileImageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
