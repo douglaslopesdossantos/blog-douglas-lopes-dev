@@ -8,6 +8,7 @@ import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
+import YouTube from '../components/svgs/youtube'
 
 const contacts = [
   {
@@ -29,6 +30,11 @@ const contacts = [
     Comp: Envelope,
     alt: 'envelope icon',
     link: 'mailto:contato.geardev@gmail.com',
+  },
+  {
+    Comp: YouTube,
+    alt: 'youtube icon',
+    link: 'https://www.youtube.com/@seu-canal', // Replace with your YouTube channel URL
   },
 ]
 
