@@ -8,43 +8,46 @@
 .layout h1,
 .layout h2 {
   text-align: center;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .profileImageContainer {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 0.5rem 0;
 }
 
 .profileImage {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .newsletterContainer {
-  margin: 2rem 0;
+  margin: 3rem 0;
+  padding: 2rem;
   text-align: center;
 }
 
 .newsletterForm {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .emailInput {
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.25rem;
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 300px;
+  width: 320px;
   font-size: 1rem;
 }
 
 .submitButton {
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 2rem;
   background-color: #0070f3;
   color: white;
   border: none;
